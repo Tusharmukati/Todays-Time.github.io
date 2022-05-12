@@ -37,7 +37,7 @@ document.getElementById("dte").addEventListener('mouseleave',change2);
 function change1(){
     document.getElementById("dte").style.backgroundColor="#2F4F4F"
     document.getElementById("dte").style.color="cyan"
-    document.getElementById("dte").style.animation="    animation: myAnimation 3s;"
+    document.getElementById("dte").style.animation="    animation: myAnimation 1s;"
     document.getElementById("main_container").style.animation="my2 5s"
 }
 function change2(){
