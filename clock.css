@@ -5,7 +5,7 @@
 }
 @keyframes my2 {
     0%{background-color: rgba(159, 156, 161, 0.301);}
-    100%{background: url(/Images/dark2.jpg);
+    100%{background: url(dark2.jpg);
     background-size: contain;}
 }
 *{
