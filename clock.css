@@ -1,0 +1,57 @@
+@keyframes myAnimation {
+    0%{width: 250px ; height:110px; box-shadow: 0px 0px 50px 50px;}
+    0.1%{width: 350px; height: 190px ; border-radius: 50px;
+    font-size: 11vh;box-shadow: 0px 0px 500px 500px;}
+}
+@keyframes my2 {
+    0%{background-color: rgba(159, 156, 161, 0.301);}
+    100%{background: url(/Images/dark2.jpg);
+    background-size: contain;}
+}
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main_container{
+    background-color:rgba(159, 156, 161, 0.301);
+    color:antiquewhite;
+    margin-top: 10vh;
+    width: 90vw;
+    height: 75vh;
+    display: flex;
+    border: 5px solid rgb(250, 248, 249);
+    font-size: 5vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#dte{
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 72px;
+    height: 110px;
+    width: 250px;
+    background-color: rgb(93, 93, 99);
+    
+}
+
+#dte:hover{
+    animation: myAnimation 1000s;
+}
+
+#inside{
+padding: 12px;
+}
+.up{
+    font-size: 30px;
+}
+.down{
+    font-size: 45px;
+}
